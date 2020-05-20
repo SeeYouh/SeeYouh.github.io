@@ -1,0 +1,352 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+p,h1,h2,h3,h4,h5,h6,ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    width: 100%;
+}
+
+/**Header**/
+
+.container {
+    display: flex;
+    flex-direction: column-reverse
+}
+
+.titre {
+    font-family: 'squada one', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    width: 100%
+}
+
+/**Logo**/
+
+.logo {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2DFDB
+}
+
+.logo img {
+    border: 2px solid #009688;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.568) 1px 3px 2px
+}
+
+
+/**Julien Froger**/
+
+.texte-julien-froger {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.dev-complet {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.texte-dev-cut {
+    border-bottom: 2px solid #009688;
+}
+
+.text-web {
+    padding-bottom: 2px;
+}
+
+.texte-julien {
+    color: #009688;
+    margin-right: 0.25em;
+}
+
+/**Présentation**/
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B2DFDB
+}
+
+/**Contact**/
+
+h2 {
+    text-transform: uppercase;
+    background-color: #2d9c91;
+    text-align: center;
+    width: 100%
+}
+
+.title-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.text_contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0
+}
+
+.contact p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: 2px;
+    padding-left: 10px;
+    white-space: normal;
+}
+
+.icon_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 8px
+}
+
+.p_contact {
+    width: 100%;
+}
+
+.contact a {
+    color: black;
+    padding: 2px 5px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.p_contact:hover {
+    color: #009688;
+}
+
+.p_contact:hover a{
+    color: #009688;
+}
+
+/**A propos**/
+
+.a_propos {
+    display: flex;
+    white-space: normal;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.a_propos p {
+    padding: 5px 10%;
+    text-align: justify
+}
+
+/**Corps du CV**/
+
+.fe {
+    box-sizing: border-box;
+}
+
+.main-title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #009688;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.ico_fe {
+    color: #009688;
+    margin-right: 10px;
+}
+
+.icofe {
+    margin-right: 10px;
+    font-size: 10px;
+    color: #009688;
+}
+
+.icotitle {
+    margin-right: 10px;
+    font-size: 10px;
+    color: #009688;
+}
+
+.bloc-fe {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contener-fe {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+.title-fe {
+    margin: 0px 0 5px 19px;
+
+}
+
+.span-title-fe {
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.detail-fe {
+    margin-top: 5px;
+}
+
+.div-detail-fe {
+    padding-left: 25px;
+}
+
+/**Loisirs**/
+
+.ico-loisirs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.icon_loisirs {
+    margin: 15px 0;
+}
+
+/**Recommandations**/
+
+.bloc-recommandations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bloc-perso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.perso {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
+.perso-tel {
+    font-weight: bold;
+}
+
+/**Moyen & grand écran**/
+
+@media screen and (min-width:760px) {
+    .container {
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo {
+        width: 35%;
+    }
+    .titre {
+        width: 65%;
+        height: 100%;
+    }
+    .texte-julien-froger {
+        font-size: 75px;
+    }
+    .dev-complet {
+        font-size: 35px;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    .presentation {
+        width: 35%;
+    }
+    .fe {
+        width: 65%;
+    }
+    .span-title-fe {
+        margin-left: 3px;
+    }
+    .text_contact {
+        margin: 20px 5%;
+    }
+    .contener-fe {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    body {
+        margin: 8px;
+    }
+    .background-body {
+        width: 850px;
+        border: 2px solid #009687;
+        box-shadow: rgba(0, 0, 0, 0.466) 2px 3px 2px;
+        box-shadow: #00968744 0 0 100px;
+        background-color: white;
+        margin: auto;
+    }
+
+    .presentation {
+        width: 300px;
+    }
+    .logo {
+        width: 300px;
+    }
+    .container-fe {
+        width: 100%;
+    }
+}
