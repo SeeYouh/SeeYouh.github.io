@@ -6,10 +6,9 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    white-space: nowrap;
 }
 
-p,h1,h2,h3,h4,h5,h6,ul {
+p,h1,h2,h3,h4,h5,h6,ul,a {
     margin: 0;
     padding: 0;
 }
@@ -119,8 +118,7 @@ h2 {
 .text_contact {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 10px 0
+    margin: 20px 5%;
 }
 
 .contact p {
@@ -129,7 +127,6 @@ h2 {
     align-items: center;
     margin: 1px;
     padding: 2px;
-    padding-left: 10px;
     white-space: normal;
 }
 
@@ -152,7 +149,6 @@ h2 {
 
 .contact a {
     color: black;
-    padding: 2px 5px;
     text-transform: none;
     text-decoration: none;
 }
@@ -222,7 +218,7 @@ h2 {
 .contener-fe {
     display: flex;
     flex-direction: column;
-    margin: 10px 5px;
+    margin: 10px 10px 10px 20px;
 }
 
 .title-fe {
@@ -318,9 +314,6 @@ h2 {
     }
     .span-title-fe {
         margin-left: 3px;
-    }
-    .text_contact {
-        margin: 20px 5%;
     }
     .contener-fe {
         margin-left: 50px;
