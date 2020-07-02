@@ -302,7 +302,7 @@ h2 {
     .dev-complet {
         font-size: 35px;
     }
-    section {
+    main {
         display: flex;
         flex-direction: row;
     }
