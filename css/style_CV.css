@@ -224,7 +224,7 @@ address {
 
 .title-fe {
     margin: 0px 0 5px 19px;
-    width: 300px;
+    width: 350px;
 }
 
 .title_h4 {
@@ -338,7 +338,7 @@ address {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .bloc-fe {
         display: flex;
         flex-direction: column;
