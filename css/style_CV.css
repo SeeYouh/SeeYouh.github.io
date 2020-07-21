@@ -8,7 +8,7 @@ body {
     flex-direction: column;
 }
 
-p,h1,h2,h3,h4,h5,h6,ul,a {
+p,h1,h2,h3,h4,h5,h6,ul,a,figure {
     margin: 0;
     padding: 0;
 }
@@ -115,7 +115,7 @@ h2 {
     align-items: center
 }
 
-.text_contact {
+address {
     display: flex;
     flex-direction: column;
     margin: 20px 5%;
@@ -208,10 +208,11 @@ h2 {
 }
 
 .bloc-fe {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
@@ -223,7 +224,11 @@ h2 {
 
 .title-fe {
     margin: 0px 0 5px 19px;
+    width: 300px;
+}
 
+.title_h4 {
+    text-transform: uppercase;
 }
 
 .span-title-fe {
@@ -239,6 +244,11 @@ h2 {
     padding-left: 25px;
 }
 
+.date {
+    display: flex;
+    flex-direction: row;
+}
+
 /**Loisirs**/
 
 .ico-loisirs {
@@ -246,10 +256,18 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    margin: 15px 0;
 }
 
-.icon_loisirs {
-    margin: 15px 0;
+.ico_border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 2px;
 }
 
 /**Recommandations**/
@@ -320,12 +338,23 @@ h2 {
     }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 850px) {
+    .bloc-fe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-fe {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
     body {
         margin: 8px;
     }
     .background-body {
-        width: 850px;
+        width: 900px;
         border: 2px solid #009687;
         box-shadow: rgba(0, 0, 0, 0.466) 2px 3px 2px;
         box-shadow: #00968744 0 0 100px;

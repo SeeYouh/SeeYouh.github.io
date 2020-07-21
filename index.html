@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rédaction d'un bout d'histoire de ma vie professionnelle et personnelle">
     <link href="css/style_CV.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Squada+One&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="images/ico/files.ico" />
@@ -18,12 +19,19 @@
     <!--Header-->
         
         <header class="container">
-            <div class="logo">
+            <figure class="logo">
                 <img src="images/jpg/IMG_1693.jpg" alt="portrait Julien Froger">
-            </div>
+            </figure>
             <div class="titre">
-                <h1><span class="texte-julien-froger"><span class="texte-julien">julien</span> froger</span>
-                    <span class="dev-complet"><span class="texte-dev-cut">Dével</span><span class="text-web">oppeur web</span></span></h1>
+                <h1><span class="texte-julien-froger">
+                        <span class="texte-julien">julien</span> 
+                        froger
+                    </span>
+                    <span class="dev-complet">
+                        <span class="texte-dev-cut">Dével</span>
+                        <span class="text-web">oppeur web</span>
+                    </span>
+                </h1>
             </div>
         </header>
         
@@ -36,8 +44,8 @@
     
                 <div class="contact">
                     <h2>contact</h2>
-                    <div class="text_contact">
-                        <p><span class="icon_contact"><i class="fas fa-map-marked-alt"></i></span>12 route de Brénat <br>
+                    <address>
+                        <p><span class="icon_contact"><i class="fas fa-map-marked-alt"></i></span>12 route de Brénat </br>
                             16730 Fléac </p>
                         <p><span class="icon_contact"><i class="fas fa-mobile-alt"></i></span>06 50 17 32 57</p>
                         <a href="mailto:julienfroger16@gmail.com">
@@ -56,7 +64,7 @@
                             Julien 
                             </p>
                         </a>
-                    </div>
+                    </address>
                 </div>
     
     <!--A propos-->
@@ -76,9 +84,9 @@
                     <div class="loisirs">
                         <h2>loisirs</h2>
                         <div class="ico-loisirs">
-                            <span class="icon_loisirs"><i class="fas fa-biking fa-3x"></i></span>
-                            <span class="icon_loisirs"><i class="fas fa-hiking fa-3x"></i></span>
-                            <span class="icon_loisirs"><i class="fas fa-camera fa-3x"></i></span>
+                            <div class="ico_border"><i class="fas fa-biking fa-3x"></i></div>
+                            <div class="ico_border"><i class="fas fa-hiking fa-3x"></i></div>
+                            <div class="ico_border"><i class="fas fa-camera fa-3x"></i></div>
                         </div>
                     </div>
             </aside>
@@ -87,37 +95,52 @@
     <!--Formation & Expérience-->
     <!--FE-->
         
-            <article class="fe">
-                <h3 class="main-title"><span class="ico_fe"><i class="fas fa-graduation-cap fa-2x"></i></span>formations</h3>
+            <section class="fe">
+                <h3 class="main-title"><i class="fas fa-graduation-cap fa-2x ico_fe"></i>formations</h3>
                 <div class="contener-fe">
                     <div class="bloc-fe">
-                        <h4><span class="icofe"><i class="far fa-dot-circle"></i></span> Depuis Avril 2020 : OpenClassRooms :</h4>
+                        <div class="date">
+                            <h4><i class="far fa-dot-circle icofe"></i> </h4>
+                            <h4>Depuis Avril 2020 :</h4>
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">Formation web developpement</span>                        
+                            <h4 class="title_h4">OpenClassRooms :</h4>
+                            <div class="span-title-fe">Formation web developpement</div>                        
                             <div class="detail-fe">Apprentissage du métier de developpeur web</div>
                         </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span> 2005 : AFPA :</h4>
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2005 :</h4> 
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">Préprofessionnalisation tertiaire</span>
+                            <h4 class="title_h4">AFPA :</h4>
+                            <div class="span-title-fe">Préprofessionnalisation tertiaire</div>
                             <div class="detail-fe">Apprentissage des métiers du tertiaire</div>
                         </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span>2002 – 2004 : LP Pierre-André Chabanne :</h4>
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2002 – 2004 :</h4> 
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">CAP Agent de maintenance de matériel bureautique</span>
+                            <h4 class="title_h4">LP Pierre-André Chabanne :</h4>
+                            <div class="span-title-fe">CAP Agent de maintenance de matériel bureautique</div>
                             <div class="detail-fe">Apprentissage de l'outil informatique</div>
                         </div>
                     </div>
                 </div>
-                <h3 class="main-title"><span class="ico_fe"><i class="fas fa-briefcase fa-2x"></i></span> expériences professionnelles</h3>
+                <h3 class="main-title"><i class="fas fa-briefcase fa-2x ico_fe"></i> expériences professionnelles</h3>
                 <div class="contener-fe">
                     <div class="bloc-fe">
-                        <h4><span class="icofe"><i class="far fa-dot-circle"></i></span>Janviers 2018 à Octobre 2018 :</h4>
+                        <div class="date">
+                            <h4><i class="far fa-dot-circle icofe"></i></h4>
+                            <h4>2018 :</h4>
+                        </div>
                             <div class="title-fe">
-                                <span class="span-title-fe"> Gérant Entreprise Individuelle :</span>
+                                <h4 class="title_h4">Gérant Entreprise Individuelle :</h4> 
                                 <div class="detail-fe">
                                     <ul>
                                         <li>Vente & dépannage de matériel informatique</li>
@@ -128,9 +151,12 @@
                             </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span>Décembre 2015 à Septembre 2017 : </h4>
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2015 à 2017 : </h4>
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">Gérant Auto-Entreprise :</span>
+                            <h4 class="title_h4">Gérant Auto-Entreprise</h4>
                             <div class="detail-fe">
                                 <ul>
                                     <li>Préparation d'ordinateur fixe/portable </li>
@@ -141,9 +167,12 @@
                         </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span>Mai 2014 à Novembre 2015 :</h4>
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2014 à 2015 :</h4>
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe"> LGV Chef opérateur : Identification des câbles :</span> 
+                            <h4 class="title_h4">LGV Chef opérateur : <br> Identification des câbles :</h4>
                             <div class="detail-fe">
                                 <ul>
                                     <li>Mise en place des tableaux de saisie</li>
@@ -154,9 +183,12 @@
                         </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span>Février 2010 à Mai 2014 :</h4> 
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2010 à 2014 :</h4> 
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">Diverses missions d’intérim :</span>
+                            <h4 class="title_h4">Diverses missions d’intérim :</h4>
                             <div class="detail-fe">
                                 <ul>
                                     <li>Travaux public</li>
@@ -167,9 +199,12 @@
                         </div>
                     </div>
                     <div class="bloc-fe">
-                        <h4><span class="icotitle"><i class="fas fa-circle"></i></span>Février 2010 à Décembre 2012 :</h4>
+                        <div class="date">
+                            <h4><i class="fas fa-circle icotitle"></i></h4>
+                            <h4>2010 à 2012 :</h4>
+                        </div>
                         <div class="title-fe">
-                            <span class="span-title-fe">Gérant Auto-Entreprise :</span>
+                            <h4 class="title_h4">Gérant Auto-Entreprise</h4>
                             <div class="detail-fe">
                                 <ul>
                                     <li>Préparation d'ordinateur fixe/portable </li>
@@ -181,27 +216,22 @@
                     </div>
                 </div>
                 <div class="contener-recommandations">
-                    <h3 class="main-title"><span class="ico_fe"><i class="fas fa-pencil-alt fa-2x"></i></span>recommandations</h3>
+                    <h3 class="main-title"><i class="fas fa-pencil-alt fa-2x ico_fe"></i>recommandations</h3>
                     <div class="bloc-recommandations">
                         <div class="bloc-perso">
-                            <ul>
-                                <li><p class="perso">Maxime Briand</p> </li>
-                                <li><p><span class="perso-tel">Tel :</span>  00 00 00 00 00</p></li>
+                            <ul><div class="perso">Maxime Briand</div> 
+                                <li><div class="perso-tel">Tel :</div>  00 00 00 00 00</li>
                             </ul>
                         </div>
                         <div class="bloc-perso">
-                            <ul>
-                                <li><p class="perso">david lopez</p> </li>
-                                <li><p><span class="perso-tel">Tel :</span>  00 00 00 00 00</p></li>
+                            <ul><div class="perso">david lopez</div> 
+                                <li><span class="perso-tel">Tel :</span>  00 00 00 00 00</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </article>
+            </section>
         </main>
-    
-        <footer>
-        </footer>
     </div>
 </body>
 
