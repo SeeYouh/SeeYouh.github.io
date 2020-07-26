@@ -186,16 +186,6 @@ address {
     box-sizing: border-box;
 }
 
-.main-title {
-    text-transform: uppercase;
-    border-bottom: 2px solid #009688;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    margin-left: 30px;
-    font-size: large;
-}
-
 .ico_fe {
     color: #009688;
     margin-right: 30px;
@@ -214,6 +204,22 @@ address {
     color: #009688;
 }
 
+.main-title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #009688;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.contener-fe {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 20px;
+}
+
 .bloc-fe {
     width: 100%;
     display: flex;
@@ -223,10 +229,9 @@ address {
     margin-bottom: 10px;
 }
 
-.contener-fe {
+.date {
     display: flex;
-    flex-direction: column;
-    margin: 10px 10px 10px 20px;
+    flex-direction: row;
 }
 
 .title-fe {
@@ -239,22 +244,18 @@ address {
     font-weight: 800;
 }
 
+.detail-fe {
+    margin-top: 5px;
+}
+
+
 .span-title-fe {
     font-weight: lighter;
     text-decoration: underline;
 }
 
-.detail-fe {
-    margin-top: 5px;
-}
-
 .div-detail-fe {
     padding-left: 25px;
-}
-
-.date {
-    display: flex;
-    flex-direction: row;
 }
 
 /**Loisirs**/
